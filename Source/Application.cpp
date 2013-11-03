@@ -31,10 +31,10 @@ Application::Application()
     transportSource.setPosition (0);
     transportSource.start();
     
-    SampleDisplayComponent* sdc;
-    sdc = new SampleDisplayComponent();
-    sdc->setBounds(10, 10, getWidth()-20, 100);
-    addAndMakeVisible(sdc);
+    SampleDisplayComponent* sampleDisplay;
+    sampleDisplay = new SampleDisplayComponent();
+    sampleDisplay->setBounds(10, 10, getWidth()-20, 100);
+    addAndMakeVisible(sampleDisplay);
     
 }
 
