@@ -15,7 +15,7 @@
 Application::Application()
     : thread ("audio file preview")
 {
-    setSize (700, 400);
+    setSize (700, 140);
     
     deviceManager.initialise (0, 2, 0, true);
     formatManager.registerBasicFormats();
@@ -25,11 +25,11 @@ Application::Application()
     audioSourcePlayer.setSource (&transportSource);
     
     sampleDisplay = new SampleDisplayComponent(formatManager, transportSource);
-    sampleDisplay->setBounds(10, 10, getWidth()-20, 100);
+    sampleDisplay->setBounds(10, 10, getWidth()-20, getHeight()-20);
     addAndMakeVisible(sampleDisplay);
     
-    File myFile("/Volumes/Hazel/Users/karlp/Arbeit/Samples/Rises/Superdown.wav");
-    loadFile(myFile);
+    //File myFile("/Volumes/Hazel/Users/karlp/Arbeit/Samples/Rises/Superdown.wav");
+    //loadFile(myFile);
     
     transportSource.setPosition (0);
     transportSource.start();

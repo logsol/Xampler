@@ -101,7 +101,7 @@ void SampleDisplayComponent::paint (Graphics& g)
     else
     {
         g.setFont (14.0f);
-        g.drawFittedText ("(No audio file selected)", getLocalBounds(), Justification::centred, 2);
+        g.drawFittedText ("(Drag an audio file here)", getLocalBounds(), Justification::centred, 2);
     }
 }
 
