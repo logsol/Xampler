@@ -24,17 +24,15 @@ Application::Application()
     deviceManager.addAudioCallback (&audioSourcePlayer);
     audioSourcePlayer.setSource (&transportSource);
     
-    File myFile("/Volumes/Hazel/Users/karlp/Arbeit/Samples/Rises/Superdown.wav");
+    sampleDisplay = new SampleDisplayComponent(formatManager, transportSource);
+    sampleDisplay->setBounds(10, 10, getWidth()-20, 100);
+    addAndMakeVisible(sampleDisplay);
     
+    File myFile("/Volumes/Hazel/Users/karlp/Arbeit/Samples/Rises/Superdown.wav");
     loadFile(myFile);
     
     transportSource.setPosition (0);
     transportSource.start();
-    
-    SampleDisplayComponent* sampleDisplay;
-    sampleDisplay = new SampleDisplayComponent();
-    sampleDisplay->setBounds(10, 10, getWidth()-20, 100);
-    addAndMakeVisible(sampleDisplay);
     
 }
 
@@ -57,8 +55,8 @@ void Application::resized()
 
 void Application::loadFile (const File& file)
 {
-    // display the file
     loadFileIntoTransport (file);
+    sampleDisplay->setFile(file);
 }
 
 void Application::loadFileIntoTransport (const File& audioFile)

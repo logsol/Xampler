@@ -34,7 +34,6 @@
 		B40A98FFAAABA7D133BBB533 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2FDE882393CD8E4FF0C2AF /* Carbon.framework */; };
 		B7E3BDCA54DAA482C7CE2BCC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5634B1892611149CDE12BA28 /* OpenGL.framework */; };
 		B8C13BB236B362360590F31F /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995EAF7DCAD1B585A563007D /* Application.cpp */; };
-		C9F980BD93F6784301431017 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BDEE96D7FD702BBE20C142 /* QuickTime.framework */; };
 		EBF899D5AE14CE00B0750D8C /* SampleDisplayComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF6D649181518FDFE5B56BA /* SampleDisplayComponent.cpp */; };
 		EDE16B672B84BFA2DE333506 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA495FC6ADC8B9B19F21255 /* CoreMIDI.framework */; };
 		EDF0BCF2CBA462DDBAA711C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03572F1084F0AA696839CF3 /* Cocoa.framework */; };
@@ -930,7 +929,6 @@
 				B7E3BDCA54DAA482C7CE2BCC /* OpenGL.framework in Frameworks */,
 				0D4DCA7C4B28D730A9B9E354 /* QTKit.framework in Frameworks */,
 				5C83B02AC8EB17FF06AB3BE1 /* QuartzCore.framework in Frameworks */,
-				C9F980BD93F6784301431017 /* QuickTime.framework in Frameworks */,
 				6311D4462D74ADAAA854715F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

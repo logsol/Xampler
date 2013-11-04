@@ -38,6 +38,8 @@ private:
     AudioTransportSource transportSource;
     ScopedPointer<AudioFormatReaderSource> currentAudioFileSource;
     
+    SampleDisplayComponent* sampleDisplay;
+    
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (Application)
 };
 
