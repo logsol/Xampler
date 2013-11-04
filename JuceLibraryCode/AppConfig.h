@@ -11,8 +11,8 @@
 
 */
 
-#ifndef __JUCE_APPCONFIG_YU1P0B__
-#define __JUCE_APPCONFIG_YU1P0B__
+#ifndef __JUCE_APPCONFIG_GUTGCE__
+#define __JUCE_APPCONFIG_GUTGCE__
 
 //==============================================================================
 // [BEGIN_USER_CODE_SECTION]
@@ -186,4 +186,4 @@
 #endif
 
 
-#endif  // __JUCE_APPCONFIG_YU1P0B__
+#endif  // __JUCE_APPCONFIG_GUTGCE__

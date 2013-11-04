@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Yu1p0B" name="Xampler" projectType="guiapp" version="1.0.0"
+<JUCERPROJECT id="guTGCe" name="Xampler" projectType="guiapp" version="1.0.0"
               bundleIdentifier="com.yourcompany.Xampler" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0">
-  <MAINGROUP id="kPfSw7" name="Xampler">
-    <GROUP id="{76EE70BE-5C4D-1B88-499A-22E03E2A8648}" name="Source">
-      <FILE id="DDCldy" name="Application.cpp" compile="1" resource="0" file="Source/Application.cpp"/>
-      <FILE id="aeeKZp" name="Application.h" compile="0" resource="0" file="Source/Application.h"/>
-      <FILE id="ilbZ9f" name="SampleDisplayComponent.cpp" compile="1" resource="0"
-            file="Source/SampleDisplayComponent.cpp"/>
-      <FILE id="k9SGB6" name="SampleDisplayComponent.h" compile="0" resource="0"
-            file="Source/SampleDisplayComponent.h"/>
-      <FILE id="TRs2IB" name="MainComponent.cpp" compile="1" resource="0"
-            file="Source/MainComponent.cpp"/>
-      <FILE id="TmCtgU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="pvYPM0" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+  <MAINGROUP id="dny7hr" name="Xampler">
+    <GROUP id="{153B4E62-71EC-CB8C-16BC-FC3A6DBE3B51}" name="Source">
+      <GROUP id="{9B0AC651-62B1-9223-7E3B-A3112931DE73}" name="Components">
+        <FILE id="rjNN4d" name="SampleDisplayComponent.cpp" compile="1" resource="0"
+              file="Source/SampleDisplayComponent.cpp"/>
+        <FILE id="tDdBbf" name="SampleDisplayComponent.h" compile="0" resource="0"
+              file="Source/SampleDisplayComponent.h"/>
+      </GROUP>
+      <FILE id="Ea9UU2" name="Application.cpp" compile="1" resource="0" file="Source/Application.cpp"/>
+      <FILE id="seoH9h" name="Application.h" compile="0" resource="0" file="Source/Application.h"/>
+      <FILE id="gU5SUL" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
@@ -26,20 +25,20 @@
                        isDebug="0" optimisation="2" targetName="Xampler"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="JUCE/modules"/>
-        <MODULEPATH id="juce_cryptography" path="JUCE/modules"/>
-        <MODULEPATH id="juce_video" path="JUCE/modules"/>
-        <MODULEPATH id="juce_opengl" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
